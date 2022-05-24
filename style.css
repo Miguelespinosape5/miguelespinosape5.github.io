@@ -1,0 +1,223 @@
+/*propiedades del contenedor*/
+
+*{
+    
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background: gray;
+    margin: auto;
+}
+
+.display-flex {
+    display: flex;
+   
+}
+
+header{
+    background: gray;
+   
+    
+}
+
+header .navegador_principal li{
+    display: inline;
+    padding-right: 10px;
+    text-decoration: 0;
+  
+    
+
+}
+
+header .navegador_principal li a{
+    color: white;
+}
+header img{
+    width: 80px ;
+    height: auto ;
+    padding-right: 500px;
+    padding-left: 100px;
+}
+
+
+
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background:white;
+   
+    
+}
+
+.flex-wrap .wd{
+    width: 450px;
+
+}
+.justify-content {
+display: flex;
+justify-content:center;
+justify-content: space-between; 
+}
+.aling-items {
+display: flex;
+height: 500px;
+align-items: center;
+justify-content:center;
+}
+
+.gap {
+    display:flex;
+    gap: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.gap .item1 {
+
+    width: 350px; ;
+    background-color: grey;
+}
+
+/*Propiedades y valores del contenido/items*/
+
+.order {
+
+    display: flex;
+}
+
+.uno {
+    order:45;
+}
+.dos {
+    order: 2;
+}
+.tres {
+    order: 2;
+}
+
+.grow {
+    display: flex;
+    background: white;
+    
+  
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 20px;
+}
+.grow img {
+    width: 500px ;
+    height: auto ; 
+    padding-right: 10px;
+    
+}
+
+.gris {
+    color: white;
+}
+
+.basis {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    
+  
+    background: white;
+}
+
+.basis h1 {
+    padding-left: 100px;
+    padding-right: 20px;
+    
+}
+
+.igual {width: 100px;margin: 20px;background: #7489;}
+.igual1 {width: 100px;margin: 20px;background: #7495;}
+.igual2 {width: 100px;margin: 20px;background: #366;}
+.igual3 {width: 100px; margin: 20px; background: #383;}
+.igual4 {width: 100px;margin: 20px;background: #7406;}
+.igual5 {width: 100px;margin: 20px;background: #121;}
+.igual6 {width: 100px;margin: 20px;background: #1235;}
+.igual7 {width: 100px; margin: 20px;background: #157;}
+.igual8 {width: 100px;margin: 20px;background: #138;}
+.igual9 {width: 100px;margin: 20px;background: #166;}
+.igual10 {width: 100px;margin: 20px;background: #169;}
+.igual11 {width: 100px;margin: 20px;background: #485;}
+.igual12 {width: 100px;margin: 20px;background: #184;} 
+.igual13 {width: 100px;margin: 20px;background: #5005;}
+.igual14 {width: 100px;margin: 20px;background: #673;} 
+.igual15 {width: 100px;margin: 20px;background: #701;}
+.igual16 {width: 100px;margin: 20px;background: #529;}
+.igual17 {width: 100px;margin: 20px;background: #7446;}
+.igual18 {width: 100px;margin: 20px;background: #659;} 
+.igual19 {width: 100px;margin: 20px;background: #7459;}
+.igual20 {width: 100px;margin: 20px;background: #278;} 
+.igual21 {width: 100px;margin: 20px;background: #629;}
+.igual22 {width: 100px;margin: 20px;background: #3105;}
+.igual23 {width: 100px;margin: 20px;background: #3248;}
+.igual24 {width: 100px;margin: 20px;background: #7466;} 
+.igual25 {width: 100px;margin: 20px;background: #7536;}
+.igual26 {width: 100px;margin: 20px;background: #2085} 
+.igual27 {width: 100px;margin: 20px;background: #583;}
+.igual28 {width: 100px;margin: 20px;background: #7508;}
+.igual29 {width: 100px;margin: 20px;background: #7435;}
+.igual30 {width: 100px;margin: 20px;background: #551;}
+.igual31 {width: 100px;margin: 20px;background: #291;} 
+
+
+
+
+
+
+
+.aling-self {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.arriba{
+    align-self:flex-start;
+}
+.abajo{
+    align-self: end;
+}
+
+.centro{
+    align-self: center;
+}
+
+.container_final {
+    display: flex;
+    flex-wrap: wrap;}
+
+footer{
+    padding-left: 50px;
+    flex-wrap: wrap;
+    display: flex;}    
+
+
+footer .navegador_redes li a {color: white;
+}
+footer .navegador_producto li a {color: white;}
+footer .navegador_compañia li a {color: white;}
+footer .navegador_recursos  li a {color: white;}
+footer .navegador_politicas li a {color: white;}
+
+ul {
+    list-style-type: none;
+    padding: 50px;
+    color: black;
+
+  }
+
+  footer .navegador_redes li  {display: inline;
+padding: 5px;}
+
+
